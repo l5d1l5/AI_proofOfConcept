@@ -1,0 +1,1992 @@
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>REM You no longer need to set install or set Anaconda or CUDA 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>REM
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>REM They are now packaged in VIAME 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>REM
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>REM Because people kept installing the wrong versions (not naming any names) 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>REM
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>REM Do not edit this or the below anymore 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET VIAME_INSTALL=C:\Program Files\VIAME\ 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET PATH=C:\Program Files\VIAME\\bin;C:\Program Files\VIAME\\postgres\bin;C:\Program Files\VIAME\\Scripts;C:\Program Files\VIAME\\bin;C:\Program Files\VIAME\\postgres\bin;C:\Program Files\VIAME\\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Programs\Git\cmd;C:\Programs\Git\bin\;C:\Programs\Git\cmd\;C:\Windows\System32\;C:\Programs\bin;C:\Users\rande\AppData\Local\Microsoft\WindowsApps;C:\Users\rande\AppData\Local\Microsoft\WindowsApps;C:\Windows\SysWow64\;C:\Users\rande\AppData\Local\GitHubDesktop\bin;C:\Programs\rtools40\mingw64\bin;C:\Programs\rtools40\usr\bin;C:\Programs\Git\Torsten\cmdstan\stan\lib\stan_math\lib\tbb;C:\Users\rande\AppData\Local\Box\Box Edit\ 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET LD_LIBRARY_PATH=C:\Program Files\VIAME\\bin;C:\Program Files\VIAME\\bin;C:\Program Files\VIAME\\postgres\bin;C:\Program Files\VIAME\\Scripts;C:\Program Files\VIAME\\bin;C:\Program Files\VIAME\\postgres\bin;C:\Program Files\VIAME\\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Programs\Git\cmd;C:\Programs\Git\bin\;C:\Programs\Git\cmd\;C:\Windows\System32\;C:\Programs\bin;C:\Users\rande\AppData\Local\Microsoft\WindowsApps;C:\Users\rande\AppData\Local\Microsoft\WindowsApps;C:\Windows\SysWow64\;C:\Users\rande\AppData\Local\GitHubDesktop\bin;C:\Programs\rtools40\mingw64\bin;C:\Programs\rtools40\usr\bin;C:\Programs\Git\Torsten\cmdstan\stan\lib\stan_math\lib\tbb;C:\Users\rande\AppData\Local\Box\Box Edit\ 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET KWIVER_PLUGIN_PATH=C:\Program Files\VIAME\\lib\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib64\viame\processes;C:\Program Files\VIAME\\lib\viame\processes;C:\Program Files\VIAME\\lib64\viame\modules;C:\Program Files\VIAME\\lib\viame\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\processes;C:\Program Files\VIAME\\lib\kwiver\plugins\processes;C:\Program Files\VIAME\\lib64\kwiver\plugins\modules;C:\Program Files\VIAME\\lib\kwiver\plugins\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib\kwiver\plugins\algorithms; 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET KWIVER_PLUGIN_PATH=C:\Program Files\VIAME\\lib64\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib64\viame\processes;C:\Program Files\VIAME\\lib\viame\processes;C:\Program Files\VIAME\\lib64\viame\modules;C:\Program Files\VIAME\\lib\viame\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\processes;C:\Program Files\VIAME\\lib\kwiver\plugins\processes;C:\Program Files\VIAME\\lib64\kwiver\plugins\modules;C:\Program Files\VIAME\\lib\kwiver\plugins\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib\kwiver\plugins\algorithms; 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET KWIVER_PLUGIN_PATH=C:\Program Files\VIAME\\lib\kwiver\plugins\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib64\viame\processes;C:\Program Files\VIAME\\lib\viame\processes;C:\Program Files\VIAME\\lib64\viame\modules;C:\Program Files\VIAME\\lib\viame\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\processes;C:\Program Files\VIAME\\lib\kwiver\plugins\processes;C:\Program Files\VIAME\\lib64\kwiver\plugins\modules;C:\Program Files\VIAME\\lib\kwiver\plugins\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib\kwiver\plugins\algorithms; 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET KWIVER_PLUGIN_PATH=C:\Program Files\VIAME\\lib64\kwiver\plugins\modules;C:\Program Files\VIAME\\lib\kwiver\plugins\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib64\viame\processes;C:\Program Files\VIAME\\lib\viame\processes;C:\Program Files\VIAME\\lib64\viame\modules;C:\Program Files\VIAME\\lib\viame\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\processes;C:\Program Files\VIAME\\lib\kwiver\plugins\processes;C:\Program Files\VIAME\\lib64\kwiver\plugins\modules;C:\Program Files\VIAME\\lib\kwiver\plugins\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib\kwiver\plugins\algorithms; 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET KWIVER_PLUGIN_PATH=C:\Program Files\VIAME\\lib\kwiver\plugins\processes;C:\Program Files\VIAME\\lib64\kwiver\plugins\modules;C:\Program Files\VIAME\\lib\kwiver\plugins\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib64\viame\processes;C:\Program Files\VIAME\\lib\viame\processes;C:\Program Files\VIAME\\lib64\viame\modules;C:\Program Files\VIAME\\lib\viame\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\processes;C:\Program Files\VIAME\\lib\kwiver\plugins\processes;C:\Program Files\VIAME\\lib64\kwiver\plugins\modules;C:\Program Files\VIAME\\lib\kwiver\plugins\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib\kwiver\plugins\algorithms; 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET KWIVER_PLUGIN_PATH=C:\Program Files\VIAME\\lib64\kwiver\plugins\processes;C:\Program Files\VIAME\\lib\kwiver\plugins\processes;C:\Program Files\VIAME\\lib64\kwiver\plugins\modules;C:\Program Files\VIAME\\lib\kwiver\plugins\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib64\viame\processes;C:\Program Files\VIAME\\lib\viame\processes;C:\Program Files\VIAME\\lib64\viame\modules;C:\Program Files\VIAME\\lib\viame\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\processes;C:\Program Files\VIAME\\lib\kwiver\plugins\processes;C:\Program Files\VIAME\\lib64\kwiver\plugins\modules;C:\Program Files\VIAME\\lib\kwiver\plugins\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib\kwiver\plugins\algorithms; 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET KWIVER_PLUGIN_PATH=C:\Program Files\VIAME\\lib\viame\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\processes;C:\Program Files\VIAME\\lib\kwiver\plugins\processes;C:\Program Files\VIAME\\lib64\kwiver\plugins\modules;C:\Program Files\VIAME\\lib\kwiver\plugins\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib64\viame\processes;C:\Program Files\VIAME\\lib\viame\processes;C:\Program Files\VIAME\\lib64\viame\modules;C:\Program Files\VIAME\\lib\viame\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\processes;C:\Program Files\VIAME\\lib\kwiver\plugins\processes;C:\Program Files\VIAME\\lib64\kwiver\plugins\modules;C:\Program Files\VIAME\\lib\kwiver\plugins\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib\kwiver\plugins\algorithms; 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET KWIVER_PLUGIN_PATH=C:\Program Files\VIAME\\lib64\viame\modules;C:\Program Files\VIAME\\lib\viame\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\processes;C:\Program Files\VIAME\\lib\kwiver\plugins\processes;C:\Program Files\VIAME\\lib64\kwiver\plugins\modules;C:\Program Files\VIAME\\lib\kwiver\plugins\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib64\viame\processes;C:\Program Files\VIAME\\lib\viame\processes;C:\Program Files\VIAME\\lib64\viame\modules;C:\Program Files\VIAME\\lib\viame\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\processes;C:\Program Files\VIAME\\lib\kwiver\plugins\processes;C:\Program Files\VIAME\\lib64\kwiver\plugins\modules;C:\Program Files\VIAME\\lib\kwiver\plugins\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib\kwiver\plugins\algorithms; 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET KWIVER_PLUGIN_PATH=C:\Program Files\VIAME\\lib\viame\processes;C:\Program Files\VIAME\\lib64\viame\modules;C:\Program Files\VIAME\\lib\viame\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\processes;C:\Program Files\VIAME\\lib\kwiver\plugins\processes;C:\Program Files\VIAME\\lib64\kwiver\plugins\modules;C:\Program Files\VIAME\\lib\kwiver\plugins\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib64\viame\processes;C:\Program Files\VIAME\\lib\viame\processes;C:\Program Files\VIAME\\lib64\viame\modules;C:\Program Files\VIAME\\lib\viame\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\processes;C:\Program Files\VIAME\\lib\kwiver\plugins\processes;C:\Program Files\VIAME\\lib64\kwiver\plugins\modules;C:\Program Files\VIAME\\lib\kwiver\plugins\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib\kwiver\plugins\algorithms; 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET KWIVER_PLUGIN_PATH=C:\Program Files\VIAME\\lib64\viame\processes;C:\Program Files\VIAME\\lib\viame\processes;C:\Program Files\VIAME\\lib64\viame\modules;C:\Program Files\VIAME\\lib\viame\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\processes;C:\Program Files\VIAME\\lib\kwiver\plugins\processes;C:\Program Files\VIAME\\lib64\kwiver\plugins\modules;C:\Program Files\VIAME\\lib\kwiver\plugins\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib64\viame\processes;C:\Program Files\VIAME\\lib\viame\processes;C:\Program Files\VIAME\\lib64\viame\modules;C:\Program Files\VIAME\\lib\viame\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\processes;C:\Program Files\VIAME\\lib\kwiver\plugins\processes;C:\Program Files\VIAME\\lib64\kwiver\plugins\modules;C:\Program Files\VIAME\\lib\kwiver\plugins\modules;C:\Program Files\VIAME\\lib64\kwiver\plugins\algorithms;C:\Program Files\VIAME\\lib\kwiver\plugins\algorithms; 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET VIDTK_MODULE_PATH=C:\Program Files\VIAME\\lib\modules 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET VG_PLUGIN_PATH=C:\Program Files\VIAME\ 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET SPROKIT_MODULE_PATH=C:\Program Files\VIAME\\lib\sprokit;C:\Program Files\VIAME\\lib\sprokit; 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET SPROKIT_PYTHON_MODULES=kwiver.sprokit.processes;kwiver.sprokit.schedulers 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET SPROKIT_PYTHON_MODULES=kwiver.sprokit.tests.processes;kwiver.sprokit.processes;kwiver.sprokit.schedulers 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET SPROKIT_PYTHON_MODULES=kwiver.arrows.core;kwiver.sprokit.tests.processes;kwiver.sprokit.processes;kwiver.sprokit.schedulers 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET SPROKIT_PYTHON_MODULES=kwiver.arrows.python;kwiver.arrows.core;kwiver.sprokit.tests.processes;kwiver.sprokit.processes;kwiver.sprokit.schedulers 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET SPROKIT_PYTHON_MODULES=kwiver.sprokit.processes.pytorch;kwiver.arrows.python;kwiver.arrows.core;kwiver.sprokit.tests.processes;kwiver.sprokit.processes;kwiver.sprokit.schedulers 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET SPROKIT_PYTHON_MODULES=viame.arrows.core;kwiver.sprokit.processes.pytorch;kwiver.arrows.python;kwiver.arrows.core;kwiver.sprokit.tests.processes;kwiver.sprokit.processes;kwiver.sprokit.schedulers 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET SPROKIT_PYTHON_MODULES=viame.arrows.pytorch;viame.arrows.core;kwiver.sprokit.processes.pytorch;kwiver.arrows.python;kwiver.arrows.core;kwiver.sprokit.tests.processes;kwiver.sprokit.processes;kwiver.sprokit.schedulers 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET SPROKIT_PYTHON_MODULES=viame.arrows.tensorflow;viame.arrows.pytorch;viame.arrows.core;kwiver.sprokit.processes.pytorch;kwiver.arrows.python;kwiver.arrows.core;kwiver.sprokit.tests.processes;kwiver.sprokit.processes;kwiver.sprokit.schedulers 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET SPROKIT_PYTHON_MODULES=viame.arrows.smqtk;viame.arrows.tensorflow;viame.arrows.pytorch;viame.arrows.core;kwiver.sprokit.processes.pytorch;kwiver.arrows.python;kwiver.arrows.core;kwiver.sprokit.tests.processes;kwiver.sprokit.processes;kwiver.sprokit.schedulers 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET SPROKIT_PYTHON_MODULES=viame.processes;viame.arrows.smqtk;viame.arrows.tensorflow;viame.arrows.pytorch;viame.arrows.core;kwiver.sprokit.processes.pytorch;kwiver.arrows.python;kwiver.arrows.core;kwiver.sprokit.tests.processes;kwiver.sprokit.processes;kwiver.sprokit.schedulers 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET SPROKIT_PYTHON_MODULES=viame.processes.camtrawl;viame.processes;viame.arrows.smqtk;viame.arrows.tensorflow;viame.arrows.pytorch;viame.arrows.core;kwiver.sprokit.processes.pytorch;kwiver.arrows.python;kwiver.arrows.core;kwiver.sprokit.tests.processes;kwiver.sprokit.processes;kwiver.sprokit.schedulers 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET SPROKIT_PYTHON_MODULES=viame.processes.pytorch;viame.processes.camtrawl;viame.processes;viame.arrows.smqtk;viame.arrows.tensorflow;viame.arrows.pytorch;viame.arrows.core;kwiver.sprokit.processes.pytorch;kwiver.arrows.python;kwiver.arrows.core;kwiver.sprokit.tests.processes;kwiver.sprokit.processes;kwiver.sprokit.schedulers 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET PYTHONPATH=C:\Program Files\VIAME\\python 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET PYTHONPATH=C:\Program Files\VIAME\\lib\python3.6;C:\Program Files\VIAME\\python 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET PYTHONPATH=C:\Program Files\VIAME\\lib\python3.6\site-packages;C:\Program Files\VIAME\\lib\python3.6;C:\Program Files\VIAME\\python 
+
+D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\for_videos\DIVE_Jobs\test_UrchinCrabStarPipelineV1_12-13-2021_09-18-08.441>SET KWIVER_DEFAULT_LOG_LEVEL=info 
+INFO: Could not load default logger factory. Using built-in logger.
+2021-12-13 09:18:08.918 ERROR registration.cxx(85): Cannot load python library from interpretor or env
+2021-12-13 09:18:09.115 INFO kwiver.vital.modules.module_loader(67): Loading python modules
+2021-12-13 09:18:12.554 INFO root(124): Generating grammar tables from C:\Program Files\VIAME\lib\python3.6\lib2to3\Grammar.txt
+2021-12-13 09:18:12.572 INFO root(127): Writing grammar tables to C:\Program Files\VIAME\lib\python3.6\lib2to3\Grammar3.6.9.final.0.pickle
+2021-12-13 09:18:12.572 INFO root(131): Writing failed: [Errno 13] Permission denied: 'C:\\Program Files\\VIAME\\lib\\python3.6\\lib2to3\\Grammar3.6.9.final.0.pickle'
+2021-12-13 09:18:12.573 INFO root(124): Generating grammar tables from C:\Program Files\VIAME\lib\python3.6\lib2to3\PatternGrammar.txt
+2021-12-13 09:18:12.575 INFO root(127): Writing grammar tables to C:\Program Files\VIAME\lib\python3.6\lib2to3\PatternGrammar3.6.9.final.0.pickle
+2021-12-13 09:18:12.575 INFO root(131): Writing failed: [Errno 13] Permission denied: 'C:\\Program Files\\VIAME\\lib\\python3.6\\lib2to3\\PatternGrammar3.6.9.final.0.pickle'
+2021-12-13 09:18:14.170 INFO registration.cxx(139): Current search pathC:\Program Files\VIAME\\lib64\viame\processes
+2021-12-13 09:18:14.170 INFO registration.cxx(139): Current search pathC:\Program Files\VIAME\\lib\viame\processes
+2021-12-13 09:18:14.170 INFO registration.cxx(139): Current search pathC:\Program Files\VIAME\\lib64\viame\modules
+2021-12-13 09:18:14.170 INFO registration.cxx(139): Current search pathC:\Program Files\VIAME\\lib\viame\modules
+2021-12-13 09:18:14.170 INFO registration.cxx(139): Current search pathC:\Program Files\VIAME\\lib64\kwiver\plugins\processes
+2021-12-13 09:18:14.170 INFO registration.cxx(139): Current search pathC:\Program Files\VIAME\\lib\kwiver\plugins\processes
+2021-12-13 09:18:14.170 INFO registration.cxx(139): Current search pathC:\Program Files\VIAME\\lib64\kwiver\plugins\modules
+2021-12-13 09:18:14.170 INFO registration.cxx(139): Current search pathC:\Program Files\VIAME\\lib\kwiver\plugins\modules
+2021-12-13 09:18:14.170 INFO registration.cxx(139): Current search pathC:\Program Files\VIAME\\lib64\kwiver\plugins\algorithms
+2021-12-13 09:18:14.170 INFO registration.cxx(139): Current search pathC:\Program Files\VIAME\\lib\kwiver\plugins\algorithms
+2021-12-13 09:18:14.170 INFO registration.cxx(139): Current search pathC:/workspace/VIAME-Windows-GPU-Release/build/install/lib/kwiver/plugins
+2021-12-13 09:18:14.170 INFO registration.cxx(139): Current search pathC:/workspace/VIAME-Windows-GPU-Release/build/install/lib/Release/kwiver/plugins
+2021-12-13 09:18:14.170 INFO registration.cxx(139): Current search pathC:\Program Files\VIAME\bin/../lib/kwiver/plugins
+2021-12-13 09:18:32.498 INFO refine_detections_with_svm.cxx(155): Ignoring file without .svm extension: detector.pipe
+2021-12-13 09:18:32.772 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_10320.jpg"
+2021-12-13 09:18:32.926 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_10440.jpg"
+2021-12-13 09:18:32.94 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_10560.jpg"
+2021-12-13 09:18:33.207 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_10680.jpg"
+2021-12-13 09:18:33.464 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_10800.jpg"
+2021-12-13 09:18:33.730 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_10920.jpg"
+2021-12-13 09:18:33.5 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_11040.jpg"
+2021-12-13 09:18:34.239 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_11160.jpg"
+2021-12-13 09:18:34.499 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_11280.jpg"
+2021-12-13 09:18:34.583 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_11400.jpg"
+2021-12-13 09:18:34.865 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_11520.jpg"
+Time to Detect Objects - elapsed time: 8.92055 sec
+2021-12-13 09:18:41.926 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_11640.jpg"
+Time to Detect Objects - elapsed time: 4.72786 sec
+Time to Detect Objects - elapsed time: 4.4152 sec
+2021-12-13 09:18:52.61 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_11760.jpg"
+Time to Detect Objects - elapsed time: 4.34067 sec
+Time to Detect Objects - elapsed time: 4.348 sec
+2021-12-13 09:19:00.376 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_11880.jpg"
+Time to Detect Objects - elapsed time: 4.44648 sec
+2021-12-13 09:19:08.883 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_12000.jpg"
+Time to Detect Objects - elapsed time: 4.80648 sec
+Time to Detect Objects - elapsed time: 4.82002 sec
+2021-12-13 09:19:17.648 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_12120.jpg"
+Time to Detect Objects - elapsed time: 4.58028 sec
+Time to Detect Objects - elapsed time: 4.58188 sec
+2021-12-13 09:19:25.749 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_12240.jpg"
+Time to Detect Objects - elapsed time: 2.33042 sec
+2021-12-13 09:19:33.512 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_12360.jpg"
+Time to Detect Objects - elapsed time: 2.33483 sec
+2021-12-13 09:19:40.2 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_12480.jpg"
+C:/Program Files/VIAME/configs/pipelines/models/pytorch-resnet50.pt
+Loading data onto None from <zopen(<_io.BufferedReader name='C:\\Users\\rande\\AppData\\Local\\Temp\\tmp9n0bxsh7\\deploy_MM_CascadeRCNN_rpwkehhp_020_NYGFUV/deploy_snapshot.pt'> mode=rb)>
+Pretrained weights are a perfect fit
+Begin detection prediction (via predict)
+Mount model on GPU(0)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(1.0, 0) at 0x29c8ea74d50>
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+%%%app feature eclapsed time: 3.3080487
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(2.0, 1) at 0x29c8eac1298>
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+%%%app feature eclapsed time: 2.8301089999999993
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(3.0, 2) at 0x29c8eaec378>
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+%%%app feature eclapsed time: 2.802104700000001
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(4.0, 3) at 0x29c8ef6b228>
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+%%%app feature eclapsed time: 2.7707665000000024
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(5.0, 4) at 0x29c8f3c40d8>
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+%%%app feature eclapsed time: 2.8115764
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(6.0, 5) at 0x29c8eadaf80>
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+%%%app feature eclapsed time: 3.3699969000000003
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(7.0, 6) at 0x29c8f3c4570>
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+%%%app feature eclapsed time: 3.3738467000000014
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(8.0, 7) at 0x29c8eaca0d8>
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+%%%app feature eclapsed time: 2.988890699999999
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(9.0, 8) at 0x29c8f3c40d8>
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+%%%app feature eclapsed time: 2.971015600000001
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(10.0, 9) at 0x29c8ea39f80>
+%%%app feature eclapsed time: 2.063039399999994
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(11.0, 10) at 0x29c8f3d8b58>
+%%%app feature eclapsed time: 2.037495
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(12.0, 11) at 0x29c8ea7c1b8>
+%%%app feature eclapsed time: 1.937078999999997
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}Time to Detect Objects - elapsed time: 2.33349 sec
+2021-12-13 09:19:48.636 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_12600.jpg"
+Time to Detect Objects - elapsed time: 2.32505 sec
+2021-12-13 09:19:56.456 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_12720.jpg"
+Time to Detect Objects - elapsed time: 2.33715 sec
+2021-12-13 09:20:03.981 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_12840.jpg"
+Time to Detect Objects - elapsed time: 2.35621 sec
+2021-12-13 09:20:11.549 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_12960.jpg"
+Time to Detect Objects - elapsed time: 2.34035 sec
+2021-12-13 09:20:18.24 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_13080.jpg"
+Time to Detect Objects - elapsed time: 2.34458 sec
+2021-12-13 09:20:26.261 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_13200.jpg"
+Time to Detect Objects - elapsed time: 2.34597 sec
+2021-12-13 09:20:33.868 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_13320.jpg"
+Time to Detect Objects - elapsed time: 2.34943 sec
+2021-12-13 09:20:41.596 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_13440.jpg"
+Time to Detect Objects - elapsed time: 2.32365 sec
+2021-12-13 09:20:49.369 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_13560.jpg"
+Time to Detect Objects - elapsed time: 2.32772 sec
+2021-12-13 09:20:56.944 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_13680.jpg"
+Time to Detect Objects - elapsed time: 2.35574 sec
+2021-12-13 09:21:04.574 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_13800.jpg"
+Time to Detect Objects - elapsed time: 2.33066 sec
+2021-12-13 09:21:11.945 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_13920.jpg"
+Time to Detect Objects - elapsed time: 2.33158 sec
+2021-12-13 09:21:19.290 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_14040.jpg"
+
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(13.0, 12) at 0x29c8eaa8e68>
+%%%app feature eclapsed time: 1.9159469000000016
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(14.0, 13) at 0x29c8ef76e68>
+%%%app feature eclapsed time: 2.037429000000003
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(15.0, 14) at 0x29c8eac1d18>
+%%%app feature eclapsed time: 2.0127444000000025
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(16.0, 15) at 0x29c8eac1c70>
+%%%app feature eclapsed time: 2.057631900000004
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(17.0, 16) at 0x29c85e307d8>
+%%%app feature eclapsed time: 2.0420910999999933
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(18.0, 17) at 0x29c8ea7ce30>
+%%%app feature eclapsed time: 1.9114318000000026
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(19.0, 18) at 0x29c8eb10e30>
+%%%app feature eclapsed time: 1.8910561000000001
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(20.0, 19) at 0x29c8ea66f80>
+%%%app feature eclapsed time: 1.9350734000000074
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(21.0, 20) at 0x29c8ea7c3b0>
+%%%app feature eclapsed time: 2.0779896000000093
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(22.0, 21) at 0x29c8f3c4570>
+%%%app feature eclapsed time: 1.9571819000000232
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(23.0, 22) at 0x29c8f3d8228>
+%%%app feature eclapsed time: 1.9819274000000178
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(24.0, 23) at 0x29c8ef760a0>
+%%%app feature eclapsed time: 2.048035700000014
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(25.0, 24) at 0x29c8ef8afb8>
+%%%app feature eclapsed time: 2.006367700000027
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detectionsTime to Detect Objects - elapsed time: 2.35175 sec
+2021-12-13 09:21:26.999 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_14160.jpg"
+Time to Detect Objects - elapsed time: 2.34722 sec
+2021-12-13 09:21:34.480 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_14280.jpg"
+Time to Detect Objects - elapsed time: 2.33263 sec
+2021-12-13 09:21:41.905 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_14400.jpg"
+Time to Detect Objects - elapsed time: 2.35065 sec
+2021-12-13 09:21:49.472 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_14520.jpg"
+Time to Detect Objects - elapsed time: 2.35476 sec
+2021-12-13 09:21:56.106 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_14640.jpg"
+Time to Detect Objects - elapsed time: 2.32324 sec
+2021-12-13 09:22:04.475 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_14760.jpg"
+Time to Detect Objects - elapsed time: 2.31841 sec
+2021-12-13 09:22:11.840 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_14880.jpg"
+Time to Detect Objects - elapsed time: 2.34295 sec
+2021-12-13 09:22:19.210 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_15000.jpg"
+Time to Detect Objects - elapsed time: 2.34354 sec
+2021-12-13 09:22:26.686 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_15120.jpg"
+Time to Detect Objects - elapsed time: 2.32266 sec
+2021-12-13 09:22:34.254 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_15240.jpg"
+Time to Detect Objects - elapsed time: 2.26942 sec
+2021-12-13 09:22:41.328 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_15360.jpg"
+Time to Detect Objects - elapsed time: 2.28244 sec
+2021-12-13 09:22:48.583 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_15480.jpg"
+Time to Detect Objects - elapsed time: 2.29552 sec
+2021-12-13 09:22:55.710 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_15600.jpg"
+
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(26.0, 25) at 0x29c8eab81b8>
+%%%app feature eclapsed time: 2.0349769000000038
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(27.0, 26) at 0x29c8f3cd490>
+%%%app feature eclapsed time: 1.950035200000002
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(28.0, 27) at 0x29c8eac1a78>
+%%%app feature eclapsed time: 1.9706708999999876
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(29.0, 28) at 0x29c8eacae68>
+%%%app feature eclapsed time: 2.033678100000003
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(30.0, 29) at 0x29c8ea39ea0>
+%%%app feature eclapsed time: 1.9983906999999874
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(31.0, 30) at 0x29c8f3d8298>
+%%%app feature eclapsed time: 2.023386600000009
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(32.0, 31) at 0x29c8eaa8f10>
+%%%app feature eclapsed time: 1.9265912999999841
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(33.0, 32) at 0x29c8ea7c500>
+%%%app feature eclapsed time: 1.9702481999999861
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(34.0, 33) at 0x29c8eab81b8>
+%%%app feature eclapsed time: 1.9928031999999973
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(35.0, 34) at 0x29c8eab8ea0>
+%%%app feature eclapsed time: 1.8491966999999931
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(36.0, 35) at 0x29c8ef8afb8>
+%%%app feature eclapsed time: 1.7644851000000017
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(37.0, 36) at 0x29c8ef766c0>
+%%%app feature eclapsed time: 2.1358192000000145
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(38.0, 37) at 0x29c8f3ed260>
+%%%app feature eclapsed time: 1.8247604000000024
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detectionsTime to Detect Objects - elapsed time: 2.27846 sec
+2021-12-13 09:23:02.967 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_15720.jpg"
+Time to Detect Objects - elapsed time: 2.37083 sec
+2021-12-13 09:23:10.506 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_15840.jpg"
+Time to Detect Objects - elapsed time: 2.33978 sec
+2021-12-13 09:23:17.708 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_15960.jpg"
+Time to Detect Objects - elapsed time: 2.33685 sec
+2021-12-13 09:23:24.69 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_16080.jpg"
+Time to Detect Objects - elapsed time: 2.3518 sec
+2021-12-13 09:23:32.225 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_16200.jpg"
+Time to Detect Objects - elapsed time: 2.32614 sec
+2021-12-13 09:23:39.488 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_16320.jpg"
+Time to Detect Objects - elapsed time: 2.33432 sec
+2021-12-13 09:23:46.567 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_16440.jpg"
+Time to Detect Objects - elapsed time: 2.33212 sec
+2021-12-13 09:23:53.871 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_16560.jpg"
+Time to Detect Objects - elapsed time: 2.34549 sec
+2021-12-13 09:24:00.89 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_16680.jpg"
+Time to Detect Objects - elapsed time: 2.30848 sec
+2021-12-13 09:24:08.288 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_16800.jpg"
+Time to Detect Objects - elapsed time: 2.33515 sec
+2021-12-13 09:24:15.326 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_16920.jpg"
+Time to Detect Objects - elapsed time: 2.35742 sec
+2021-12-13 09:24:22.469 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_17040.jpg"
+Time to Detect Objects - elapsed time: 2.33842 sec
+2021-12-13 09:24:29.757 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_17160.jpg"
+
+Finished prediction
+timestamp = <Timestamp(39.0, 38) at 0x29c8ea74fb8>
+%%%app feature eclapsed time: 1.868188900000007
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(40.0, 39) at 0x29c8ef76df8>
+%%%app feature eclapsed time: 2.0598048999999605
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(41.0, 40) at 0x29c8f3e3f10>
+%%%app feature eclapsed time: 1.9718364999999949
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(42.0, 41) at 0x29c8eacae68>
+%%%app feature eclapsed time: 1.9204791999999884
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(43.0, 42) at 0x29c8f3c4308>
+%%%app feature eclapsed time: 1.9023396999999704
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(44.0, 43) at 0x29c8f3e34c8>
+%%%app feature eclapsed time: 1.8857293000000368
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(45.0, 44) at 0x29c8f3d8228>
+%%%app feature eclapsed time: 1.8413491000000022
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(46.0, 45) at 0x29c8ea39e30>
+%%%app feature eclapsed time: 1.9352117999999905
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(47.0, 46) at 0x29c8f3edf80>
+%%%app feature eclapsed time: 1.9940232999999807
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(48.0, 47) at 0x29c8eadaf80>
+%%%app feature eclapsed time: 2.004933499999993
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(49.0, 48) at 0x29c8eab84c8>
+%%%app feature eclapsed time: 1.9204484999999636
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(50.0, 49) at 0x29c8ea39ea0>
+%%%app feature eclapsed time: 2.0026498999999944
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(51.0, 50) at 0x29c8ea8fd18>
+%%%app feature eclapsed time: 1.9970997000000352
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished predictionTime to Detect Objects - elapsed time: 2.36112 sec
+2021-12-13 09:24:37.143 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_17280.jpg"
+Time to Detect Objects - elapsed time: 2.33616 sec
+2021-12-13 09:24:44.398 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_17400.jpg"
+Time to Detect Objects - elapsed time: 2.34768 sec
+2021-12-13 09:24:51.799 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_17520.jpg"
+Time to Detect Objects - elapsed time: 2.32931 sec
+2021-12-13 09:24:59.319 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_17640.jpg"
+Time to Detect Objects - elapsed time: 2.32905 sec
+2021-12-13 09:25:06.715 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_17760.jpg"
+Time to Detect Objects - elapsed time: 2.39034 sec
+2021-12-13 09:25:13.842 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_17880.jpg"
+Time to Detect Objects - elapsed time: 2.26632 sec
+2021-12-13 09:25:21.395 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_18000.jpg"
+Time to Detect Objects - elapsed time: 2.28522 sec
+2021-12-13 09:25:28.960 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_18120.jpg"
+Time to Detect Objects - elapsed time: 2.28973 sec
+2021-12-13 09:25:36.904 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_18240.jpg"
+Time to Detect Objects - elapsed time: 2.38514 sec
+2021-12-13 09:25:44.627 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_18360.jpg"
+Time to Detect Objects - elapsed time: 2.35228 sec
+2021-12-13 09:25:52.535 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_18480.jpg"
+Time to Detect Objects - elapsed time: 2.35614 sec
+2021-12-13 09:25:59.79 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_18600.jpg"
+Time to Detect Objects - elapsed time: 2.34916 sec
+2021-12-13 09:26:07.616 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_18720.jpg"
+Time to Detect Objects - elapsed time: 2.35581 sec
+
+timestamp = <Timestamp(52.0, 51) at 0x29c8ea58960>
+%%%app feature eclapsed time: 1.9395364000000086
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(53.0, 52) at 0x29c8f3e3f10>
+%%%app feature eclapsed time: 2.1185131999999953
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(54.0, 53) at 0x29c8f3edd50>
+%%%app feature eclapsed time: 2.131163499999957
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(55.0, 54) at 0x29c85e307d8>
+%%%app feature eclapsed time: 2.13615249999998
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(56.0, 55) at 0x29c8ea66768>
+%%%app feature eclapsed time: 1.9909091000000103
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(57.0, 56) at 0x29c8f3e3f10>
+%%%app feature eclapsed time: 1.9330221999999821
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(58.0, 57) at 0x29c8ea7ce30>
+%%%app feature eclapsed time: 2.134668499999975
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(59.0, 58) at 0x29c8eac1a78>
+%%%app feature eclapsed time: 1.8339439000000084
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(60.0, 59) at 0x29c8ef766c0>
+%%%app feature eclapsed time: 2.199365699999987
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(61.0, 60) at 0x29c8eac1a78>
+%%%app feature eclapsed time: 2.1898676999999793
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(62.0, 61) at 0x29c8ea66a78>
+%%%app feature eclapsed time: 2.0790534000000207
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(63.0, 62) at 0x29c8ea39f48>
+%%%app feature eclapsed time: 2.1259428000000185
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(64.0, 63) at 0x29c8ef6b110>
+%%%app feature eclapsed time: 2.150255300000026
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(65.0, 64) at 0x29c8f3cd490>2021-12-13 09:26:15.401 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_18840.jpg"
+Time to Detect Objects - elapsed time: 2.36499 sec
+2021-12-13 09:26:23.288 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_18960.jpg"
+Time to Detect Objects - elapsed time: 2.35994 sec
+2021-12-13 09:26:31.262 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_19080.jpg"
+Time to Detect Objects - elapsed time: 2.35349 sec
+2021-12-13 09:26:39.169 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_19200.jpg"
+Time to Detect Objects - elapsed time: 2.35516 sec
+2021-12-13 09:26:46.41 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_19320.jpg"
+Time to Detect Objects - elapsed time: 2.35228 sec
+2021-12-13 09:26:54.974 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_19440.jpg"
+Time to Detect Objects - elapsed time: 2.35673 sec
+2021-12-13 09:27:02.925 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_19560.jpg"
+Time to Detect Objects - elapsed time: 2.34447 sec
+2021-12-13 09:27:10.690 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_19680.jpg"
+Time to Detect Objects - elapsed time: 2.35175 sec
+2021-12-13 09:27:18.344 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_19800.jpg"
+Time to Detect Objects - elapsed time: 2.32872 sec
+2021-12-13 09:27:26.307 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_19920.jpg"
+Time to Detect Objects - elapsed time: 2.53014 sec
+2021-12-13 09:27:34.182 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_20040.jpg"
+Time to Detect Objects - elapsed time: 2.31763 sec
+2021-12-13 09:27:41.74 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_20160.jpg"
+Time to Detect Objects - elapsed time: 2.32005 sec
+2021-12-13 09:27:49.126 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_20280.jpg"
+Time to Detect Objects - elapsed time: 2.36792 sec
+
+%%%app feature eclapsed time: 2.0940385000000106
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(66.0, 65) at 0x29c8ea66a78>
+%%%app feature eclapsed time: 2.113429100000019
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(67.0, 66) at 0x29c8ea8fd18>
+%%%app feature eclapsed time: 2.0389536000000135
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(68.0, 67) at 0x29c8ea67d18>
+%%%app feature eclapsed time: 1.9562926000000402
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(69.0, 68) at 0x29c8eaec110>
+%%%app feature eclapsed time: 2.087417700000003
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(70.0, 69) at 0x29c8ea39ed8>
+%%%app feature eclapsed time: 2.104985900000031
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(71.0, 70) at 0x29c8eab84c8>
+%%%app feature eclapsed time: 2.093674299999975
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(72.0, 71) at 0x29c8f3d8848>
+%%%app feature eclapsed time: 2.1425227999999947
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(73.0, 72) at 0x29c8ea39e68>
+%%%app feature eclapsed time: 2.1696949999999333
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(74.0, 73) at 0x29c8eacae68>
+%%%app feature eclapsed time: 2.0255871999999044
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(75.0, 74) at 0x29c8ea9f148>
+%%%app feature eclapsed time: 1.8889980999999807
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(76.0, 75) at 0x29c8ea74dc0>
+%%%app feature eclapsed time: 1.9974302000000534
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(77.0, 76) at 0x29c8eab12d0>
+%%%app feature eclapsed time: 1.9772411000000147
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (2160, 3840, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+Begin detection prediction (via predict)
+Detect objects in image (shape={'rgb': (360, 640, 3)})
+native = {
+    'channels': 'rgb',
+    'input_dims': 'window',
+    'window_dims': [640, 640],
+}
+Accumulate detections
+Finalize detections
+Finished prediction
+timestamp = <Timestamp(78.0, 77) at 0x29c8eac1420>
+%%%app feature eclapsed time: 2.01587000000006362021-12-13 09:27:58.288 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_20400.jpg"
+Time to Detect Objects - elapsed time: 2.32738 sec
+2021-12-13 09:28:05.604 INFO video_input_image_list.cxx(376): reading image from file "D:\OneDrive\Active_Projects\Washington_Coast_Benthic_Surveys\AI_analyses\KatieTimeLapse\ProcessedPowerDirectorOutput2\test\Produce_20520.jpg"
+Time to Detect Objects - elapsed time: 2.31078 sec
+Time to Detect Objects - elapsed time: 2.32405 sec
+Time to Detect Objects - elapsed time: 2.33979 sec
+Time to Detect Objects - elapsed time: 2.31495 sec
+Time to Detect Objects - elapsed time: 2.33156 sec
+Time to Detect Objects - elapsed time: 2.35198 sec
+Time to Detect Objects - elapsed time: 2.34735 sec
