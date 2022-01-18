@@ -8,9 +8,5 @@ The folder structure and constituent files was created automatically by VIAME in
 
 I have not yet received permission to add the photos used to train and test VIAME that generated the SVM model in this repo, so for now, this repo will simply contain all files associated with the training and testing of an algorithm (minus the imagery). If one had imagery suitable for analysis with this SVM model, one could (1) download VIAME desktop, (2) clone this repository, and (3) copy VIAME batch scripts into that folder. As is, the SVM model here on git is from 100 individuals (mostly urchins) annotated across 80 images, i.e., this SVM model is for proof-of-concept only. 
 
-<p float="left">
-  <img src="photos/manualAnnotations.png" width="450" />
-  <img src="photos/objectDetection.png" width="450" />
-</p>
-
+![](photos/manualAnnotations.png)
 
